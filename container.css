@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url(./fonts/PlusJakartaSans-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Plus Jakarta Sans";
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1197px;
+  background: #ffffff;
+}

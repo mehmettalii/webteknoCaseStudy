@@ -1,0 +1,310 @@
+.block-title {
+  position: static;
+  width: 210px;
+  height: 26px;
+  left: calc(50% - 210px / 2 - 480px);
+  top: 690px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px; /* Değiştir*/
+  line-height: 26px;
+  letter-spacing: 4px;
+
+  /* primaryColor */
+
+  color: #d0021b;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.stream {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 1170px;
+  height: 320px;
+  left: calc(50% - 1170px / 2);
+  top: 746px;
+
+  /* flex: none; */
+  order: 2;
+  /* flex-grow: 0; */
+  /* margin: 30px 0px; */
+}
+
+.stream-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 540px;
+  height: 184px;
+  left: 0px;
+  top: 0px;
+
+  /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 60px; */
+}
+
+.stream-title {
+  position: static;
+  width: 540px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+
+  /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 0px; */
+}
+
+.stream-title p {
+  position: static; /* Default absolute*/
+  width: 540px;
+  height: 14px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  /* secondaryTextColor */
+
+  color: #8c8c8c;
+}
+
+.stream-title h2 {
+  position: static; /* Default absolute*/
+  width: 540px;
+  height: 105px;
+  left: 0px;
+  top: 19px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 35px;
+  /* or 113% */
+
+  letter-spacing: -0.6px;
+
+  /* primaryTextColor */
+
+  color: #222222;
+}
+
+.stream-info {
+  position: static;
+  width: 370px;
+  height: 45px;
+  left: 0px;
+  top: 139px;
+
+  /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+  /* margin: 15px 0px; */
+}
+
+.stream-info hr {
+  position: static; /* Default absolute*/
+  width: 50px;
+  height: 5px;
+  left: 0px;
+  margin-top: 15px;
+
+  /* greyColor2 */
+
+  background: #eeeeee;
+}
+
+.frame7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static; /* Default absolute*/
+  width: 370px;
+  height: 25px;
+  left: 0px;
+  margin-top: 15px;
+}
+
+.frame7 img {
+  position: static;
+  width: 25px;
+  height: 25px;
+  left: 0px;
+  top: 0px;
+
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.frame7 p {
+  position: static;
+  width: 335px;
+  height: 16px;
+  left: 35px;
+  top: 4.5px;
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.2px;
+
+  /* secondaryTextColor */
+
+  color: #8c8c8c;
+
+  /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+  /* margin: 0px 10px; */
+}
+
+.post-image {
+  position: static;
+  width: 570px;
+  height: 321px;
+  left: 600px;
+  top: 0px;
+
+  background: url("./images/post-image.jpg");
+  /* imageBorder */
+
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 60px;
+}
+
+.play {
+  position: absolute; /* Default absolute*/
+  width: 100px;
+  height: 100px;
+  left: 835px;
+  top: 857px; /* Default 111*/
+  background: #ffffff;
+  /* defaultShadow */
+
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+}
+
+.play img {
+  position: absolute;
+  width: 42.86px;
+  height: 42.86px;
+  left: 28.57px; /*left: 863.57px;*/
+  bottom: 28.57px; /*top: 139.57px;*/
+}
+
+.video-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+
+  position: absolute;
+  width: 49px;
+  height: 26px;
+  left: 1118px;
+  top: 1041px; /*290*/
+
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.video-time p {
+  position: static;
+  left: 20.41%;
+  right: 20.41%;
+  top: 19.23%;
+  bottom: 19.23%;
+
+  /* Info - 13pt Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.2px;
+
+  /* whiteColor */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px; */
+}
+
+.favorite {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 15px; /*left: 1115px;*/
+  bottom: 266px; /*top: 15px;*/
+  border-radius: 50%;
+
+  /* background: rgba(0, 0, 0, 0.4); */
+}
+/* TEKRAR BAK*/
+.favorite img {
+  position: static;
+  width: 15px;
+  height: 15px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}

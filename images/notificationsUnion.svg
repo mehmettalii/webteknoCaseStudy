@@ -1,0 +1,20 @@
+<svg width="300" height="410" viewBox="0 0 300 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1450_6480)">
+<mask id="path-1-inside-1_1450_6480" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M199 4L195 0L191 4H25C19.4772 4 15 8.47716 15 14V370C15 375.523 19.4771 380 25 380H275C280.523 380 285 375.523 285 370V14C285 8.47715 280.523 4 275 4H199Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M199 4L195 0L191 4H25C19.4772 4 15 8.47716 15 14V370C15 375.523 19.4771 380 25 380H275C280.523 380 285 375.523 285 370V14C285 8.47715 280.523 4 275 4H199Z" fill="white"/>
+<path d="M195 0L195.707 -0.707107L195 -1.41421L194.293 -0.707107L195 0ZM199 4L198.293 4.70711L198.586 5H199V4ZM191 4V5H191.414L191.707 4.70711L191 4ZM194.293 0.707107L198.293 4.70711L199.707 3.29289L195.707 -0.707107L194.293 0.707107ZM191.707 4.70711L195.707 0.707107L194.293 -0.707107L190.293 3.29289L191.707 4.70711ZM25 5H191V3H25V5ZM16 14C16 9.02945 20.0294 5 25 5V3C18.9249 3 14 7.92488 14 14H16ZM16 370V14H14V370H16ZM25 379C20.0294 379 16 374.971 16 370H14C14 376.075 18.9249 381 25 381V379ZM275 379H25V381H275V379ZM284 370C284 374.971 279.971 379 275 379V381C281.075 381 286 376.075 286 370H284ZM284 14V370H286V14H284ZM275 5C279.971 5 284 9.02944 284 14H286C286 7.92487 281.075 3 275 3V5ZM199 5H275V3H199V5Z" fill="#DDDDDD" mask="url(#path-1-inside-1_1450_6480)"/>
+</g>
+<defs>
+<filter id="filter0_d_1450_6480" x="0" y="0" width="300" height="410" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="15"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1450_6480"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1450_6480" result="shape"/>
+</filter>
+</defs>
+</svg>
